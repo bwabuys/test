@@ -8,20 +8,19 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript">
   $(function() {
-    var srcText = $("#1").html();
+    var text = $("#1").html();
     var i = 0;
-    var result = srcText[i];
+    var result = text[i];
     setInterval(function() {
-            if(i == srcText.length) {
+            if(i == text.length) {
                 clearInterval(this);
                 return;
             };
             i++;
-            result += srcText[i].replace("\n", "<br/>");
-            $("#1").html( result);
-    },
-    100); // the period between every character and next one, in milliseonds.
-});
+            result += text[i].replace("\n", "<br/>");
+            $("#1").html(result);
+    },100);
+  });
 </script>
 </head>
 
