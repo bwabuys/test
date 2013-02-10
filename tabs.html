@@ -7,12 +7,14 @@
 <meta charset="utf-8"/>
 <style>
   body {text-align: center; font-size: 1.5em;}
-  div {margin: 0px auto; background-color: white;}
-  ul {margin: 0px;}
-  li {display: inline; border: 1px solid black; border-bottom: 0px solid black;}
-  a {background-color: gray;}
-  a, span {display: inline-block; width: 150px;}
-  span {padding-bottom: 1px; background-color: white;}
+  div {margin: 0px auto;}
+  
+  #tabs ul {margin: 0px;}
+  #tabs li {display: inline-block; border: 1px solid black; border-bottom: 0px solid black;}
+  #tabs a {background-color: wheat;}
+  #tabs a, span {display: inline-block; width: 150px;}
+  #tabs span {padding-bottom: 1px; background-color: white;}
+  
   #content {border: 1px solid black; width: 80%; height: 500px;}
 </style>
 
@@ -20,7 +22,7 @@
 
 <body>
 
-<div>
+<div id="tabs">
 <ul>
 <li><span>Bla</span></li>
 <li><a href="#">Bla</a></li>
