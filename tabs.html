@@ -6,7 +6,52 @@
 <title>Test - Tabs</title>
 <meta charset="utf-8"/>
 <style type="text/css">
-  body {text-align: center; font-size: 1.5em;}
+  body {
+		font: 0.8em arial, helvetica, sans-serif;
+	}
+	
+	#header ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	
+	#header li {
+		display: inline;
+		border: 1px solid;
+		border-bottom-width: 0;
+		margin: 0 0.5em 0 0;
+	}
+	
+	#header li a {
+		padding: 0 1em;
+	}
+	
+	#header #selected {
+		padding-bottom: 1px;
+		background: white;
+	}
+	
+	#content {
+		border: 1px solid;
+	}
+</style>
+
+</head>
+
+<body>
+
+<div id="header">
+  <ul>
+    <li id="selected"><span>Bla</span></li>
+    <li><a href="#">Bla</a></li>
+    <li><a href="#">Bla</a></li>
+    <li><a href="#">Bla</a></li>
+  </ul>
+</div>
+
+<div id="content">
+    body {text-align: center; font-size: 1.5em;}
   div {margin: 0px auto;}
   
   #tabs ul {margin: 0px;}
@@ -17,23 +62,6 @@
   #tabs a, span {display: inline-block; width: 150px;}
   
   #content {border: 1px solid black; width: 80%; height: 500px;}
-</style>
-
-</head>
-
-<body>
-
-<div id="tabs">
-  <ul>
-    <li id="selected"><span>Bla</span></li>
-    <li><a href="#">Bla</a></li>
-    <li><a href="#">Bla</a></li>
-    <li><a href="#">Bla</a></li>
-  </ul>
-</div>
-
-<div id="content">
-  
 </div>
 
 </body>
