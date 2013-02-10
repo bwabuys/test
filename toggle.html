@@ -7,8 +7,9 @@
 <meta charset="utf-8"/>
 <style style="text/css">
   body {font-size: 1.5em;}
-  #bla + div {display: none;}
-  #bla:checked + div {display: block;}
+  #bla ~ div {display: none;}
+  #bla:checked ~ label {color: yellow;}
+  #bla:checked ~ div {display: block;}
 </style>
 <script type="text/javascript">
 
@@ -17,7 +18,7 @@
 
 <body>
 
-<label for="bla">Klik</label><input id="bla" type="checkbox"/>
+<input id="bla" type="checkbox"/><label for="bla">Toggle</label>
 <div>
   Bla
 </div>
