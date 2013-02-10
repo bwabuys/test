@@ -6,35 +6,49 @@
 <title>Test - Tabs</title>
 <meta charset="utf-8"/>
 <style type="text/css">
-	body {
-		text-align: center;
-	}
-	
-	#header ul {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-	}
-	
-	#header li {
-		display: inline;
-		border: 1px solid;
-		border-bottom-width: 0;
-		margin: 0 0.5em 0 0;
-	}
-	
-	#header li a {
-		padding: 0 1em;
-	}
-	
-	#header #selected {
-		padding-bottom: 1px;
-		background: white;
-	}
-	
-	#content {
-		border: 1px solid;
-	}
+#menu {
+	font-size: 2em;
+	font-weight: bold;
+	margin: 20px 0px 0px 0px;
+	list-style: none;
+	padding: 0px;
+}
+
+#menu li {
+	display: inline;
+	border: 1px solid;
+	border-bottom-width: 0px;
+	margin: 0px 10px;
+}
+
+#menu li a, #menu li h1 {
+	display: inline-block;
+	width: 150px;
+	margin: 0px;
+	font-size: 1em;
+}
+
+#menu li a {
+	background-color: purple;
+	color: pink;
+	background-image: url(/images/paars.png);
+}
+
+#menu li a:hover {
+	background-color: yellow;
+	color: crimson;
+	background-image: url(/images/geel.png);
+}
+
+#menu #selected {
+	padding-bottom: 1px;
+	background-color: white;
+}
+
+#content {
+	border-top: 1px solid;
+	padding: 20px;
+}
 </style>
 
 </head>
@@ -42,7 +56,7 @@
 <body>
 
 <div id="header">
-  <ul>
+  <ul id="menu">
     <li id="selected"><span>Bla</span></li>
     <li><a href="#">Bla</a></li>
     <li><a href="#">Bla</a></li>
