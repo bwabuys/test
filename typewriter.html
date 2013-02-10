@@ -11,7 +11,7 @@
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript">
   $(function() {
-    var text = $("#text").html();
+    var text = $('#text').html();
     var i = 0;
     var result = text[i];
     setInterval(function() {
@@ -21,14 +21,14 @@
             };
             i++;
             result += text[i];
-            $("#text").html(result);
+            $('#text').html(result);
     },50);
   });
 </script>
 </head>
 
 <body>
-<pre id="text">
+<pre id="text" onclick="$('text').html(text);">
 Geert Wilders (Venlo, 6 september 1963) is een Nederlands politicus.
 
 Hij is partijleider van de Partij voor de Vrijheid (PVV) en namens deze partij fractieleider in de Tweede Kamer.
