@@ -10,7 +10,8 @@
   div {margin: 0px auto;}
   
   #tabs ul {margin: 0px;}
-  #tabs li {display: inline-block; border: 1px solid black; border-bottom: 0px solid black;}
+  #tabs li {display: inline; border: 1px solid black; border-bottom: 0px solid black;}
+  #tabs li#selected {padding-bottom: 1px;}
   #tabs a {background-color: wheat;}
   #tabs a:hover {background-color: yellow;}
   #tabs a, span {display: inline-block; width: 150px;}
@@ -25,7 +26,7 @@
 
 <div id="tabs">
 <ul>
-<li><span>Bla</span></li>
+<li id="selected"><span>Bla</span></li>
 <li><a href="#">Bla</a></li>
 <li><a href="#">Bla</a></li>
 <li><a href="#">Bla</a></li>
