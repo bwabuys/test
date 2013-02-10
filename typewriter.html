@@ -6,12 +6,12 @@
 <title>Test</title>
 <meta charset="utf-8"/>
 <style type="text/css">
-  #1 {white-space: pre;}
+
 </style>
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript">
   $(function() {
-    var text = $("#1").html();
+    var text = $("#text").html();
     var i = 0;
     var result = text[i];
     setInterval(function() {
@@ -21,14 +21,14 @@
             };
             i++;
             result += text[i];
-            $("#1").html(result);
+            $("#text").html(result);
     },50);
   });
 </script>
 </head>
 
 <body>
-<div id="1">
+<pre id="text">
 Geert Wilders (Venlo, 6 september 1963) is een Nederlands politicus.
 
 Hij is partijleider van de Partij voor de Vrijheid (PVV) en namens deze partij fractieleider in de Tweede Kamer.
@@ -38,7 +38,7 @@ Op 3 september 2004 stapte hij uit deze fractie en richtte zijn eenmansfractie o
 De voortzetting daarvan werd de PVV, waarvan Wilders tot op heden enig lid is.
 Na de Tweede Kamerverkiezingen van november 2006 werd hij fractievoorzitter.
 Wilders staat bekend als een criticus van de islam, verder is hij bekend vanwege zijn uitgesproken standpunten met betrekking tot de Europese Unie, de euro, immigratie en de vrijheid van meningsuiting.
-</div>
+</pre>
 
 
 </body>
