@@ -6,9 +6,10 @@
 <title>Test - Tabs</title>
 <meta charset="utf-8"/>
 <style>
-  body {font-size: 1.5em;}
-  div {margin-left: auto; margin-right: auto;}
+  body {font-size: 1.5em; background-color: wheat;}
+  div {margin-left: auto; margin-right: auto; background-color: white;}
   li {display: inline-block; border: 1px solid black;}
+  #selected {padding-bottom: 1px;}
   #content {border: 1px solid black; width: 80%;}
 </style>
 
@@ -16,12 +17,14 @@
 
 <body>
 
+<div>
 <ul>
-<li><a href="#">Bla</a></li>
+<li id="selected"><span>Bla</span></li>
 <li><a href="#">Bla</a></li>
 <li><a href="#">Bla</a></li>
 <li><a href="#">Bla</a></li>
 </ul>
+</div>
 
 <div id="content">
   Bla
