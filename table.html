@@ -1,23 +1,39 @@
 <html>
 	<head>
+		<title>Table</title>
 		<style>
-			div {display: table}
-			span {display: table-cell}
+			.table {display: table}
+			.td {display: table-cell}
+			.tr {display: table-row};
 			
-			table, div, td, table-cell {
+			table, .table, td, .td, tr, .tr {
 				border: 1px solid black
 			}
 		</style>
 	</head>
 	<body>
 		<table>
-			<td>Bla</td>
-			<td>Bla</td>
+			<tr>
+				<td>Bla</td>
+				<td>Bla</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>2</td>
+			</tr>
 		</table>
 	
-		<div>
-			<span>Bla</span>
-			<span>Bla</span>
+		<div class="table">
+			<span class="tr">
+				<span class="td">Bla</span>
+				<span class="td">Bla</span>
+			</span>
+			<span class="tr">
+				<span class="td">1</span>
+				<span class="td">2</span>
+			</span>
 		</div>
+		
+		<a href="http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance#collapsed">HTML5/CSS3</a>
 	</body>
 </html>
