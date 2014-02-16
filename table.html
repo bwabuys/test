@@ -45,24 +45,98 @@
 		<hr/>
 		
 		<h1>Tabel 2</h1>
-		
-		<form class="table">
-			<div class="tr">
-				<span class="td">Bla</span>
-				<span class="td">Bla</span>
+
+			<div>
+				<h2>Vul uw gegevens in</h2>
+
+				<form>
+					<div class="td">
+						<fieldset>
+							<legend>Accountgegevens</legend>
+							<div>
+								<label>
+									<span class="verplicht">Gebruikersnaam</span>
+									<input type="text" required="required"/>
+								</label>
+							</div>
+							<div>
+								<label>
+									<span class="verplicht">Wachtwoord</span>
+									<input type="password" required="required"/>
+								</label>
+							</div>
+							<div>
+								<label>
+									<span class="verplicht">Herhaal wachtwoord</span>
+									<input type="password" required="required"/>
+								</label>
+							</div>
+						</fieldset>
+					</div>
+					<div class="td">
+						<fieldset>
+							<legend>Factuuradres</legend>
+							<div>
+								<label>
+									<span class="verplicht">Aanhef</span>
+									<select required="required">
+										<option disabled="disabled" selected="selected"> </option>
+										<option>Dhr.</option>
+										<option>Mevr.</option>
+									</select>
+								</label>
+								<label>
+									<span class="verplicht">Voornaam</span>
+									<input type="text" required="required"/>
+								</label>
+								<label>
+									<span>Tussenv.</span>
+									<input type="text" size="6"/>
+								</label>
+								<label>
+									<span class="verplicht">Achternaam</span>
+									<input type="text" required="required"/>
+								</label>
+							</div>
+							<div>
+								<label>
+									<span class="verplicht">Emailadres</span>
+									<input type="text" required="required"/>
+								</label>
+							</div>
+							<div>
+								<label>
+									<span class="verplicht">Straatnaam</span>
+									<input type="text" required="required"/>
+								</label>
+								<label>
+									<span class="verplicht">Huisnummer</span>
+									<input type="text" required="required" size="6"/>
+								</label>
+							</div>
+							<div>
+								<label>
+									<span class="verplicht">Postcode</span>
+									<input type="text" required="required"/>
+								</label>
+								<label>
+									<span class="verplicht">Woonplaats</span>
+									<input type="text" required="required"/>
+								</label>
+							</div>
+							<div>
+								<label>
+									<span class="verplicht">Telefoon</span>
+									<input type="text" required="required"/>
+								</label>
+							</div>
+						</fieldset>
+					</div>
+					<div class="td">
+						<input type="submit" value="Opslaan"/>
+					</div>
+				</form>
 			</div>
-			<div class="tr">
-				<div class="td">
-					<fieldset><input type="text"/></fieldset>
-				</div>
-				<div class="td">
-					<fieldset class="td"><input type="text"/></fieldset>
-				</div>
-			</div>
-			<div class="tr">
-				<span class="td">Bla</span>
-			</div>
-		</form>
 		
 		<a href="http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance#collapsed">HTML5/CSS3</a>
 	</body>
