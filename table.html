@@ -9,12 +9,18 @@
 			.td {display: table-cell;}
 			.tr {display: table-row;}
 			
+			table, .table {
+				border-collapse: collapse;
+			}
+			
 			table, .table, td, .td, tr, .tr {
 				border: 1px solid black;
 			}
 		</style>
 	</head>
 	<body>
+		<h1>Tabel 1</h1>
+	
 		<table>
 			<tr>
 				<td>Bla</td>
@@ -35,6 +41,30 @@
 				<span class="td">1</span>
 				<span class="td">2</span>
 			</span>
+		</div>
+		
+		<h1>Tabel 2</h1>
+		
+		<table>
+			<td>Bla</td>
+			<td>Bla</td>
+		</table>
+		
+		<div class="table">
+			<span class="td">Bla</span>
+			<span class="td">Bla</span>
+		</div>
+		
+		<h1>Tabel 3</h1>
+		
+		<table>
+			<tr>Bla</tr>
+			<tr>Bla</tr>
+		</table>
+		
+		<div class="table">
+			<span class="tr">Bla</span>
+			<span class="tr">Bla</span>
 		</div>
 		
 		<a href="http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance#collapsed">HTML5/CSS3</a>
