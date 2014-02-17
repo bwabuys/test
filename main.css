@@ -5,7 +5,6 @@ html {
 body {
 	width: 80%;
 	margin: 0 auto;
-	padding: 3em;
-	box-shadow: 0 0 10px black;
 	background-color: white;
+	box-shadow: 0 0 10px black;
 }
