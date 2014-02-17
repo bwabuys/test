@@ -6,12 +6,18 @@ html {
 
 body {
 	width: 80%;
+	min-width: 800px;
 	height: 100%;
 	margin: 0 auto;
 	background-color: white;
 	box-shadow: 0 0 10px black;
 	text-align: center;
 }
+
+a:link {text-decoration: none;}
+a:visited {}
+a:hover {text-decoration: underline;}
+a:active {}
 
 .i {display: inline;}
 .b {display: block;}
