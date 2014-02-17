@@ -6,7 +6,7 @@
 				display: none;
 			}
 
-			#bla + label{
+			#bla + label img {
 				display: block;
 				width: 50px;
 				height: 50px;
@@ -14,7 +14,7 @@
 				transition: 1s;
 			}
 		
-			#bla:checked + label {
+			#bla:checked + label img {
 				width: 300px;
 				height: 300px;
 				background-color: red;
@@ -24,6 +24,10 @@
 	</head>
 	<body>
 		<input id="bla" type="checkbox"/>
-		<label for="bla"></label>
+		<label for="bla">
+			<img src="" alt="Bla"/>
+		</label>
+		
+		<a href="http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance#collapsed"/>Validator</a>
 	</body>
 </html>
