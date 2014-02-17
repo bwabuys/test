@@ -2,8 +2,13 @@
   <head>
     <link rel="stylesheet" href="main.css"/>
     <style>
+      body {position: relative;}
       header {background-color: blue;}
-      footer {background-color: teal; position: absolute; bottom: 0;}
+      footer {background-color: yellow; position: absolute; bottom: 0; width: 100%;}
+      main {display: table;}
+      section, aside {display: table-cell; width: 50%;}
+      section {background-color: green;}
+      aside {background-color: red;}
     </style>
   </head>
   <body>
@@ -14,7 +19,12 @@
       </hgroup>
     </header>
     <main>
-      
+      <section>
+        
+      </section>
+      <aside>
+        
+      </aside>
     </main>
     <footer>
       <a href="http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance#collapsed">Validator</a>
