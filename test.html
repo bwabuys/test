@@ -6,11 +6,11 @@
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="main.css"/>
     <style type="text/css">
-      body {position: relative;}
+      body {position: relative; text-size: 2em}
       header, main, footer {width: 100%;}
       header {background-color: blue;}
       footer {background-color: yellow; position: absolute; bottom: 0;}
-      main {display: table;}
+      main {display: table; height: 100%;}
       section, aside {display: table-cell;}
       section {width: 70%; background-color: green;}
       aside {width: 30%; background-color: red;}
@@ -18,17 +18,18 @@
   </head>
   <body>
     <header>
-      Bla
+      <h1>Header</h1>
     </header>
     <main>
       <section>
-        Bla
+        <h2>Section</h2>
       </section>
       <aside>
-        Bla
+        <h2>Aside</h2>
       </aside>
     </main>
     <footer>
+      <h2>Footer</h2>
       <a href="http://validator.w3.org/unicorn/check?ucn_uri=referer&amp;ucn_task=conformance#collapsed">Validator</a>
     </footer>
   </body>
