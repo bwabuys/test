@@ -12,3 +12,13 @@ body {
 	box-shadow: 0 0 10px black;
 	text-align: center;
 }
+
+.i {display: inline;}
+.b {display: block;}
+.ib {display: inline-block; vertical-align: top;}
+.t {display: table;}
+.tc {display: table-cell;}
+.tr {display: table-row;}
+.fl {float: left;}
+.fr {float: right;}
+.cb {clear: both;}
