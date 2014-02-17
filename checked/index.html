@@ -16,33 +16,41 @@
 				display: none;
 			}
 			
-			label input + img {
+			label div img {
 				transition: 1s;
 				width: 200px;
 			}
 			
-			label input + img + span {
+			label div span {
 				display: none;
 			}
 			
-			label input:checked + img {
+			label input:checked div {
+				position: absolute;
+			}
+			
+			label input:checked + div img {
 				width: 500px;
 				transition: 1s;
 			}
 			
-			label input:checked + img + span {
+			label input:checked + div span {
 				display: block;
 				position: absolute;
 				bottom: 0;
 				background-color: rgba(255,255,255,0.7);
+				width: 100%;
+				padding: 10px;
 			}
 		</style>
 	</head>
 	<body>
 		<label>
 			<input type="checkbox"/>
-			<img src="/i/images/wiezijnwij.jpg" alt="Bla"/>
-			<span>Bla</span>
+			<div>
+				<img src="/i/images/wiezijnwij.jpg" alt="Bla"/>
+				<span>Bla</span>
+			</div>
 		</label>
 		
 		<label>
