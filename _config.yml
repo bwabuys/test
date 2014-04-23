@@ -1,5 +1,0 @@
-name: Test
-markdown: redcarpet
-pygments: true
-baseurl: /test
-auto: true
